@@ -1,0 +1,16 @@
+description = "spring-learn-demo"
+
+apply plugin: "groovy"
+apply plugin: "kotlin"
+
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+
+dependencies {
+    compile(project(":spring-aop"))
+    compile(project(":spring-beans"))
+    compile(project(":spring-core"))
+    compile(project(":spring-expression"))
+    compile(project(":spring-context"))
+    optional(project(":spring-instrument"))
+}

@@ -512,6 +512,13 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 		return this.applicationListeners;
 	}
 
+	/**
+	 * spring 容器 初始化入口
+	 *
+	 * <p/>
+	 * @author Hancher
+	 * @date Created in 2020年05月11日 20:54
+	 */
 	@Override
 	public void refresh() throws BeansException, IllegalStateException {
 		synchronized (this.startupShutdownMonitor) {
