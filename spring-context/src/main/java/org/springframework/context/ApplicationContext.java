@@ -49,6 +49,8 @@ import org.springframework.lang.Nullable;
  * {@link ApplicationContextAware} beans as well as {@link ResourceLoaderAware},
  * {@link ApplicationEventPublisherAware} and {@link MessageSourceAware} beans.
  *
+ * spring 核心容器，实现了环境接口，核心beanFactory 接口 ， 上下级beanFactory 接口，消息接口，事件接口，资源适配器接口
+ *
  * @author Rod Johnson
  * @author Juergen Hoeller
  * @see ConfigurableApplicationContext

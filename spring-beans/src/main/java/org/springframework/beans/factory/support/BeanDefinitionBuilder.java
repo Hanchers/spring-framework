@@ -25,7 +25,7 @@ import org.springframework.lang.Nullable;
 import org.springframework.util.ObjectUtils;
 
 /**
- * bean定义元数据 构建类
+ * bean定义元数据 构建类，工具类  2.0 开始
  * Programmatic means of constructing
  * {@link org.springframework.beans.factory.config.BeanDefinition BeanDefinitions}
  * using the builder pattern. Intended primarily for use when implementing Spring 2.0

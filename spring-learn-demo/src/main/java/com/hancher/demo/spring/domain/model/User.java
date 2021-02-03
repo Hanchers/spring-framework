@@ -1,6 +1,6 @@
 package com.hancher.demo.spring.domain.model;
 
-import com.hancher.demo.spring.domain.model.enums.City;
+import com.hancher.demo.spring.domain.enums.CityEnum;
 import org.springframework.beans.factory.BeanNameAware;
 import org.springframework.core.io.Resource;
 
@@ -24,11 +24,11 @@ public class User implements BeanNameAware {
 
 	private String name;
 
-	private City city;
+	private CityEnum city;
 
-	private City[] workCities;
+	private CityEnum[] workCities;
 
-	private List<City> lifeCities;
+	private List<CityEnum> lifeCities;
 
 	private Resource configFileLocation;
 
@@ -59,11 +59,11 @@ public class User implements BeanNameAware {
 		this.name = name;
 	}
 
-	public City getCity() {
+	public CityEnum getCity() {
 		return city;
 	}
 
-	public void setCity(City city) {
+	public void setCity(CityEnum city) {
 		this.city = city;
 	}
 
@@ -75,19 +75,19 @@ public class User implements BeanNameAware {
 		this.configFileLocation = configFileLocation;
 	}
 
-	public City[] getWorkCities() {
+	public CityEnum[] getWorkCities() {
 		return workCities;
 	}
 
-	public void setWorkCities(City[] workCities) {
+	public void setWorkCities(CityEnum[] workCities) {
 		this.workCities = workCities;
 	}
 
-	public List<City> getLifeCities() {
+	public List<CityEnum> getLifeCities() {
 		return lifeCities;
 	}
 
-	public void setLifeCities(List<City> lifeCities) {
+	public void setLifeCities(List<CityEnum> lifeCities) {
 		this.lifeCities = lifeCities;
 	}
 
