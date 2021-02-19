@@ -34,7 +34,7 @@ include "integration-tests"
 // my learn demo for source read
 include 'spring-learn-demo'
 
-rootProject.name = "spring"
+rootProject.name = "learn-spring"
 rootProject.children.each {project ->
 	project.buildFileName = "${project.name}.gradle"
 }
